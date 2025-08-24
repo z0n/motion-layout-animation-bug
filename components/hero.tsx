@@ -1,7 +1,7 @@
 'use client'
 
 import { FC, useEffect, useMemo, useState } from "react";
-import { motion, useMotionValue, useSpring, Variants } from 'motion/react'
+import { motion, useMotionValue, useSpring, Variants } from 'framer-motion'
 import { usePolymorph } from "@/hooks/use-polymorph";
 import { clsx } from "clsx";
 import { getRandomInteger } from "@/utils/get-random-integer";

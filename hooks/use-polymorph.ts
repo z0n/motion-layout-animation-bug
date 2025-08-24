@@ -1,4 +1,4 @@
-import { MotionValue, useTransform } from 'motion/react';
+import { MotionValue, useTransform } from 'framer-motion';
 import { interpolate } from 'polymorph-js';
 
 export const getIndex = (_: string, index: number) => index;
